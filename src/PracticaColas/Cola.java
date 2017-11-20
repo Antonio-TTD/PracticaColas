@@ -4,14 +4,14 @@ package PracticaColas;
  * Created by Akado on 16/11/2017.
  */
 public class Cola {
-    private Nodo frente; //el inicio de la cola
-    public int size = 0;
+    public Nodo frente; //el inicio de la cola
+    public int size = 0; //Tamaño de la cola
     //constructor simple
     public Cola() {
         this.frente = null;
     }
     //Método para insertar siguiente elemento (nodo), el elemento debe colocarse detrás del último nodo
-    public void Insertar(int valor){
+    public void Insertar(Object valor){
         Nodo nuevo = new Nodo(valor);
         if(frente == null){
             frente = nuevo;
@@ -38,14 +38,18 @@ public class Cola {
         }
     }
     //Método para extraer el elemento del frente
-    public int extraer(){
+    public Object extraer(){
         if(frente == null){
             return 0;
         }else{
-            int valorExtraer = frente.getValor(); //variable temporal
+            Object valorExtraer = frente.getValor(); //variable temporal
             frente = frente.getProximo(); //cambiar el frente por el siguiente
             System.out.println("Valor extraído: "+ frente.getValor());
             return valorExtraer ; //devolver el valor extraído de la cola
         }
+    }
+    // Método para obtener el tamaño de la cola
+    public int getSize(){
+        return size;
     }
 }

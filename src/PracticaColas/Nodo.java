@@ -4,7 +4,7 @@ package PracticaColas;
  * Created by Akado on 16/11/2017.
  */
 public class Nodo {
-    private int valor;
+    private Object valor;
     private Nodo proximo;
 
     public Nodo (){
@@ -12,12 +12,12 @@ public class Nodo {
         this.proximo = null;
     }
 
-    public Nodo(int v){
+    public Nodo(Object v){
         this.valor = v;
         this.proximo = null;
     }
 
-    public void setValor(int v){
+    public void setValor(Object v){
         valor = v;
     }
 
@@ -25,7 +25,7 @@ public class Nodo {
         proximo = p;
     }
 
-    public int getValor(){
+    public Object getValor(){
         return valor;
     }
 
@@ -33,5 +33,3 @@ public class Nodo {
         return proximo;
     }
 }
-
-
