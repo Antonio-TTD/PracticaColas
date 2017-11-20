@@ -40,16 +40,23 @@ public class Cola {
     //Método para extraer el elemento del frente
     public Object extraer(){
         if(frente == null){
+            size--;
             return 0;
         }else{
             Object valorExtraer = frente.getValor(); //variable temporal
             frente = frente.getProximo(); //cambiar el frente por el siguiente
             System.out.println("Valor extraído: "+ frente.getValor());
+            size--;
             return valorExtraer ; //devolver el valor extraído de la cola
         }
     }
     // Método para obtener el tamaño de la cola
     public int getSize(){
         return size;
+    }
+    // Metodo para vaciar cola
+    public void VaciarCola(){
+        frente = null;
+        size = 0;
     }
 }

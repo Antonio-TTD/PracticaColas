@@ -43,21 +43,25 @@
         </VBox>
         <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #555;" GridPane.columnIndex="2" GridPane.rowIndex="0">
           <children>
-            <Button fx:id="vaciarBtn" layoutX="77.0" layoutY="71.0" mnemonicParsing="false" prefHeight="58.9609375" prefWidth="112.0" text="Vaciar Cola" />
+            <Button fx:id="vaciarBtn" layoutX="77.0" layoutY="71.0" mnemonicParsing="false" prefHeight="58.9609375" prefWidth="112.0" text="Vaciar Cola">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
           </children>
         </Pane>
         <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d3c;" GridPane.columnIndex="2" GridPane.rowIndex="1">
           <children>
-            <Button fx:id="extraerBtn" layoutX="180.0" layoutY="100.0" mnemonicParsing="false" text="Extraer" />
-            <Label layoutX="58.0" layoutY="49.0" text="Ingresa un número a extraer" wrapText="true" />
-            <TextField fx:id="extraerTxf" layoutX="35.0" layoutY="100.0" prefWidth="112.0" promptText="ingresa el número" text="" />
+            <Button fx:id="extraerBtn" layoutX="77.0" layoutY="71.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="112.0" text="Extraer">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Button>
           </children>
         </Pane>
         <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff0;" GridPane.columnIndex="1" GridPane.rowIndex="1">
           <children>
             <Label layoutX="72.0" layoutY="52.0" text="¿Buscas algun número?" />
             <Button fx:id="buscarBtn" layoutX="158.0" layoutY="90.0" mnemonicParsing="false" text="Buscar" />
-            <TextField fx:id="buscarTxf" layoutX="22.0" layoutY="90.0" prefWidth="112.0" promptText="¿a quien buscas?" />
+            <TextField fx:id="buscarTxf" layoutX="31.0" layoutY="90.0" prefWidth="112.0" promptText="¿a quien buscas?" />
           </children>
         </Pane>
         <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
