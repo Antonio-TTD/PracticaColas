@@ -24,7 +24,7 @@ public class Nodo {
     public void setProximo(Nodo p){
         proximo = p;
     }
-
+    public int getValorInt(){return Integer.parseInt(valor.toString());}
     public Object getValor(){
         return valor;
     }

@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Cola.class" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Cola.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$1.class" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$2.class" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$3.class" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$4.class" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller.class" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Nodo.class" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/Nodo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaColas/Cola.java" afterPath="$PROJECT_DIR$/src/PracticaColas/Cola.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/GUIColas.fxml" afterPath="$PROJECT_DIR$/out/production/PracticaColas/PracticaColas/GUIColas.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaColas/Controller.java" afterPath="$PROJECT_DIR$/src/PracticaColas/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml" afterPath="$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaColas/Nodo.java" afterPath="$PROJECT_DIR$/src/PracticaColas/Nodo.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,33 +70,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="65" column="72" lean-forward="false" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+      <file leaf-file-name="GUIColas.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
-                <element signature="class#740:981" expanded="false" />
-                <element signature="class#1024:1217" expanded="false" />
-                <element signature="class#1259:1455" expanded="false" />
-                <element signature="e#1599#1600#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="method#LlenarContenedor#0;class#Controller#0" expanded="false" />
+                <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+                <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+                <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+                <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUIColas.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="275">
+              <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
               <folding>
-                <marker date="1511150976246" expanded="true" signature="2211:3974" ph="..." />
+                <element signature="class#1455:1643" expanded="false" />
+                <element signature="class#1685:1937" expanded="false" />
+                <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+                <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+                <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,13 +107,19 @@
       <file leaf-file-name="Cola.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-              <folding>
-                <element signature="method#Insertar#0;class#Cola#0" expanded="false" />
-                <element signature="method#Mostrar#0;class#Cola#0" expanded="false" />
-                <element signature="method#extraer#0;class#Cola#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="392">
+              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nodo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PracticaColas/Nodo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,10 +152,10 @@
         <option value="$PROJECT_DIR$/src/PracticaColas/sample.fxml" />
         <option value="$PROJECT_DIR$/src/PracticaColas/Colas.java" />
         <option value="$PROJECT_DIR$/src/PracticaColas/Main.java" />
-        <option value="$PROJECT_DIR$/src/PracticaColas/Nodo.java" />
         <option value="$PROJECT_DIR$/src/PracticaColas/Cola.java" />
-        <option value="$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml" />
+        <option value="$PROJECT_DIR$/src/PracticaColas/Nodo.java" />
         <option value="$PROJECT_DIR$/src/PracticaColas/Controller.java" />
+        <option value="$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml" />
       </list>
     </option>
   </component>
@@ -175,6 +185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,9 +220,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,6 +234,12 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Akado\Desktop\PracticaColas\src\PracticaColas\image" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -445,7 +461,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-8" width="1317" height="784" extended-state="6" />
+    <frame x="57" y="-8" width="1317" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,17 +470,17 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3246951" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32213742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14694202" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16123907" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -516,7 +532,9 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -524,17 +542,220 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/image/M2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Archivos/Felipe/Works/Proyecto/ProyectoColas/Colas.iml" />
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="72" lean-forward="false" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+          <folding>
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="class#740:981" expanded="false" />
-            <element signature="class#1024:1217" expanded="false" />
-            <element signature="class#1259:1455" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="method#LlenarContenedor#0;class#Controller#0" expanded="false" />
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,7 +768,10 @@
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <marker date="1511150976246" expanded="true" signature="2211:3974" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
           </folding>
         </state>
       </provider>
@@ -556,11 +780,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="29" column="31" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="method#Insertar#0;class#Cola#0" expanded="false" />
-            <element signature="method#Mostrar#0;class#Cola#0" expanded="false" />
-            <element signature="method#extraer#0;class#Cola#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -577,12 +797,11 @@
         <state relative-caret-position="629">
           <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
-            <element signature="class#740:981" expanded="false" />
-            <element signature="class#1024:1217" expanded="false" />
-            <element signature="class#1259:1455" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="method#LlenarContenedor#0;class#Controller#0" expanded="false" />
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,7 +814,10 @@
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <marker date="1511150976246" expanded="true" signature="2211:3974" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
           </folding>
         </state>
       </provider>
@@ -612,11 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="method#Insertar#0;class#Cola#0" expanded="false" />
-            <element signature="method#Mostrar#0;class#Cola#0" expanded="false" />
-            <element signature="method#extraer#0;class#Cola#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,12 +843,11 @@
         <state relative-caret-position="442">
           <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
-            <element signature="class#740:981" expanded="false" />
-            <element signature="class#1024:1217" expanded="false" />
-            <element signature="class#1259:1455" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="method#LlenarContenedor#0;class#Controller#0" expanded="false" />
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,7 +860,10 @@
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <marker date="1511150976246" expanded="true" signature="2211:3974" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
           </folding>
         </state>
       </provider>
@@ -660,11 +880,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="method#Insertar#0;class#Cola#0" expanded="false" />
-            <element signature="method#Mostrar#0;class#Cola#0" expanded="false" />
-            <element signature="method#extraer#0;class#Cola#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -680,12 +896,11 @@
         <state relative-caret-position="119">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="class#740:981" expanded="false" />
-            <element signature="class#1024:1217" expanded="false" />
-            <element signature="class#1259:1455" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="method#LlenarContenedor#0;class#Controller#0" expanded="false" />
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,11 +917,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="47" column="73" lean-forward="false" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
-          <folding>
-            <element signature="method#Insertar#0;class#Cola#0" expanded="false" />
-            <element signature="method#Mostrar#0;class#Cola#0" expanded="false" />
-            <element signature="method#extraer#0;class#Cola#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,12 +934,11 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="class#740:981" expanded="false" />
-            <element signature="class#1024:1217" expanded="false" />
-            <element signature="class#1259:1455" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="method#LlenarContenedor#0;class#Controller#0" expanded="false" />
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -745,6 +955,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Archivos/Felipe/Works/Proyecto/ProyectoColas/Colas.iml" />
+    <entry file="file://F:/Archivos/Colas/Colas.iml" />
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/image/M1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/image/M2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -752,47 +997,37 @@
     <entry file="file://$PROJECT_DIR$/src/PracticaColas/Nodo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaColas/Cola.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding>
-            <element signature="method#Insertar#0;class#Cola#0" expanded="false" />
-            <element signature="method#Mostrar#0;class#Cola#0" expanded="false" />
-            <element signature="method#extraer#0;class#Cola#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <marker date="1511150976246" expanded="true" signature="2211:3974" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PracticaColas/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="65" column="72" lean-forward="false" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+        <state relative-caret-position="275">
+          <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
           <folding>
-            <element signature="class#740:981" expanded="false" />
-            <element signature="class#1024:1217" expanded="false" />
-            <element signature="class#1259:1455" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="method#LlenarContenedor#0;class#Controller#0" expanded="false" />
+            <element signature="class#1455:1643" expanded="false" />
+            <element signature="class#1685:1937" expanded="false" />
+            <element signature="method#LlenarCont#0;class#Controller#0" expanded="false" />
+            <element signature="method#ComprobarInt#0;class#Controller#0" expanded="false" />
+            <element signature="method#LlamarAlert#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaColas/GUIColas.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <marker date="1511414811066" expanded="true" signature="5046:5064" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5076" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5090" ph="..." />
+            <marker date="1511414811066" expanded="true" signature="5046:5104" ph="..." />
           </folding>
         </state>
       </provider>
