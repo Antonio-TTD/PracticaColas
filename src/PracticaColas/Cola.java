@@ -6,7 +6,7 @@ package PracticaColas;
 public class Cola {
     public Nodo frente; //el inicio de la cola
     public int size = 0; //Tamaño de la cola
-    //constructor simple
+    //Constructor simple
     public Cola() {
         this.frente = null;
     }
@@ -24,28 +24,15 @@ public class Cola {
         }
         size++;
     }
-    //Método para mostrar los elementos de la cola
-    public void Mostrar(){
-        if( frente != null){
-            Nodo temp = frente;
-            System.out.println("Los valores de la cola son: ");
-            while(temp != null){
-                System.out.println(temp.getValor());
-                temp = temp.getProximo();
-            }
-        }else{
-            System.out.println("La cola está vacía.");
-        }
-    }
-    //Método para extraer el elemento del frente
-    public Object extraer(){
+    //Método para Extraer el elemento del frente
+    public Object Extraer(){
         if(frente == null){
             size--;
             return 0;
         }else{
             Object valorExtraer = frente.getValor(); //variable temporal
             frente = frente.getProximo(); //cambiar el frente por el siguiente
-            System.out.println("Valor extraído: "+ frente.getValor());
+            //System.out.println("Valor extraído: "+ frente.getValor());
             size--;
             return valorExtraer ; //devolver el valor extraído de la cola
         }
@@ -58,5 +45,24 @@ public class Cola {
     public void VaciarCola(){
         frente = null;
         size = 0;
+    }
+    // Método para comprobar si la cola esta vacia
+    public boolean itsEmpty(){
+        if (frente == null){
+            return false;
+        }else {
+        return true;
+        }
+    }
+    // Método verificar si en una cola esta un valor
+    public boolean itsHere(Object H1){
+        boolean h = false;
+        int H2 = Integer.parseInt(H1.toString());
+        for (Nodo temp=frente;temp!=null;temp=temp.getProximo()){
+            if (H2 == temp.getValorInt()){
+                h = true;
+            }
+        }
+        return h;
     }
 }
